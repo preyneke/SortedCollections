@@ -17,6 +17,8 @@ import java.util.TreeMap;
 public class Basket {
     private final String name;
     private final Map<StockItem, Integer> list;
+    
+    // very important comment
 
     public Basket(String name) {
         this.name = name;
@@ -31,7 +33,7 @@ public class Basket {
         }
         return 0;
     }
-
+    // another comment
     public int removeFromBasket(StockItem item, int quantity) {
         if((item != null) && (quantity > 0)) {
             // check if we already have the item in the basket
