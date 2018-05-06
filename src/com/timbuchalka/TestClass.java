@@ -9,5 +9,9 @@ public class TestClass {
 		
 		System.out.println("Test");
 	}
+	
+	public String process() {
+		return "Pieter";
+	}
 
 }
